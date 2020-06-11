@@ -14,11 +14,11 @@ Libraries modules json and xlwt
 ------------------------------------------------------------------
 
 Open script with text editor and modify only lines 168, 169, 170, 171 and 172:
-    APICONSUMERKEY = ""
-    APICONSUMERSECRET = ""
-    CONVERSION_VALUE_SGD_TO_USD = 0.74
-    SKUSFILENAME = '/path/to/skus.txt'
-    EXCEL_FILE = '/path/to/products-shop.xls'
+APICONSUMERKEY = ""
+APICONSUMERSECRET = ""
+CONVERSION_VALUE_SGD_TO_USD = 0.74
+SKUSFILENAME = '/path/to/skus.txt'
+EXCEL_FILE = '/path/to/products-shop.xls'
 
 ------------------------------------------------------------------
  EXECUTION:
