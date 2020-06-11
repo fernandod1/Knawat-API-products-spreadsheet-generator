@@ -7,6 +7,7 @@ This python script will generate an excel spreadsheet file containing products l
 ------------------------------------------------------------------
 
 Python v3
+
 Libraries modules json and xlwt
 
 ------------------------------------------------------------------
@@ -14,10 +15,15 @@ Libraries modules json and xlwt
 ------------------------------------------------------------------
 
 Open script with text editor and modify only lines 168, 169, 170, 171 and 172:
+
 APICONSUMERKEY = ""
+
 APICONSUMERSECRET = ""
+
 CONVERSION_VALUE_SGD_TO_USD = 0.74
+
 SKUSFILENAME = '/path/to/skus.txt'
+
 EXCEL_FILE = '/path/to/products-shop.xls'
 
 ------------------------------------------------------------------
@@ -25,6 +31,7 @@ EXCEL_FILE = '/path/to/products-shop.xls'
 ------------------------------------------------------------------
 
 Write command:
+
 python knawat-api.py
 
 It will generate an excel spreadsheet with details about list of SKUs selected.
