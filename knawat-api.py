@@ -1,3 +1,7 @@
+# Copyright (c) 2020 Fernando
+# Url: https://github.com/fernandod1/
+# License: MIT
+
 import json
 import requests
 import xlwt 
